@@ -97,3 +97,11 @@ const App = () => (
   <Select.Option value="pear">Pear</Select.Option>
 </Select>;
 ```
+
+https://www.uxpin.com/studio/blog/react-design-patterns/
+
+https://egghead.io/lessons/react-write-compound-components
+
+https://blog.logrocket.com/guide-to-react-compound-components-9c4b3eb482e9/
+
+https://codesandbox.io/s/react-compound-pattern-73rx6?from-embed
