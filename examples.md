@@ -77,8 +77,23 @@ const App = () => (
 );
 ```
 
-### Dependency Injection
+### Compound components
+
 ```
+<Select
+  value={value}
+  onChange={handleChange}
+  options={[
+    { value: "apple", label: "Apple" },
+    { value: "pear", label: "Pear" }
+  ]}
+/>;
 
 ```
 
+```
+<Select value={value} onChange={handleChange}>
+  <Select.Option value="apple">Apple</Select.Option>
+  <Select.Option value="pear">Pear</Select.Option>
+</Select>;
+```
